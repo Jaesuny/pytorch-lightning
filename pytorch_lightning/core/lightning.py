@@ -870,7 +870,7 @@ class LightningModule(ABC, DeviceDtypeModuleMixin, GradInformation, ModelIO, Mod
 
         1. On a validation batch the call goes to ``model.validation_step``.
         2. On a training batch the call goes to ``model.training_step``.
-        3. On a testing batch, the call goes to ``model.test_step``.+
+        3. On a testing batch, the call goes to ``model.test_step``.
 
         Args:
             model: the :class:`LightningModule` currently being optimized.
